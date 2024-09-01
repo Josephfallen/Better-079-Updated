@@ -1,5 +1,5 @@
-# Better 079 (v2.0.0)
-> This plugin adds so many new abilities to SCP-079 for a more interesting funny gameplay or roleplaying experience. The added features will not interfere with roleplaying and give the subject unlimited possibilities. **The plugin is ready to work with Exiled 6.**
+# Better 079 (v3.0.0)
+> This plugin adds so many new abilities to SCP-079 for a more interesting funny gameplay or roleplaying experience. The added features will not interfere with roleplaying and give the subject unlimited possibilities. **The plugin is ready to work with Exiled 8.11.**
 > 
 #### With this plugin, SCP-079 will be able to:
 - SCP-079 will be able to turn off the lights throughout the complex by sacrificing a certain amount of energy for this action using ``.overcharge time`` command.

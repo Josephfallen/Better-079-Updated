@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 
 using Exiled.API.Enums;
@@ -19,8 +19,8 @@ namespace Better079.Components
 
         private List<Player> _scp079List;
 
-        private const float EscapeRadius = 10f; // Define your own radius
-        private static readonly Vector3 EscapePosition = new Vector3(0, 0, 0); // Define your own escape position
+        private const float EscapeRadius = 10f; 
+        private static readonly Vector3 EscapePosition = new Vector3(123.32f, 989.23f, 20.22f);
 
         void Start()
         {

@@ -1,0 +1,2 @@
+C:\Users\xxxac\Downloads\Better079-main\Better079-main\Better079\obj\Debug\Better079.csproj.AssemblyReference.cache
+C:\Users\xxxac\Downloads\Better079-main\Better079-main\Better079\obj\Debug\Better079.csproj.CoreCompileInputs.cache

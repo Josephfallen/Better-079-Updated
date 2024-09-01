@@ -14,5 +14,8 @@
 ## Plugin Configuration & Customization features
 > **All features and cooldowns for them that presented in plugin can be changed and customized in config.**
 
+## Original Repo 
+https://github.com/microsievert/Better079
+
 ## Plugin Installation
 > Download last release on releases page and put Better079.dll into ``EXILED/Plugins/`` folder. Goodluck!

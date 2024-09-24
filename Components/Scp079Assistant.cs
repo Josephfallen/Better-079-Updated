@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 
 using Exiled.API.Enums;
@@ -18,9 +18,6 @@ namespace Better079.Components
         private Player _player;
 
         private List<Player> _scp079List;
-
-        private const float EscapeRadius = 5f;
-        private static readonly Vector3 EscapePosition = new Vector3(123.32f, 989.23f, 20.22f);
 
         void Start()
         {
@@ -50,8 +47,7 @@ namespace Better079.Components
                 if (_player.Zone != ZoneType.Surface)
                     continue;
 
-                float distanceSqr = Vector3.SqrMagnitude(transform.position - EscapePosition);
-                if (distanceSqr <= EscapeRadius * EscapeRadius && _scp079List.Count != 0)
+                if (Vector3.Distance(transform.position, Escape.WorldPos) <= Escape.RadiusSqr + 2.1f && _scp079List.Count != 0)
                 {
                     foreach (Player scp079 in _scp079List)
                         scp079.GameObject.GetComponent<Scp079Extension>().ForceEscape(_player.Role.Team);

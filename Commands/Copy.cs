@@ -19,7 +19,7 @@ namespace Better079.Commands
     public class Copy : ICommand
     {
         public string Command => "copy";
-        public string Description => "[SCP-079 SUPPORT ABILITY] Allows you to copy SCP-079 and help him escape.";
+        public string Description => "[SCP-079 SUPPORT ABILITY] Allows you to copy SCP-079 and help he escape.";
 
         public string[] Aliases => Array.Empty<string>();
 
@@ -84,7 +84,7 @@ namespace Better079.Commands
                 Cassie.Message(Better079.Instance.Config.CopyCassie);
             });
 
-            response = "Hack process started. Stay here until process ends.";
+            response = "Hack process started. Stay here until process will end.";
             return true;
         }
     }

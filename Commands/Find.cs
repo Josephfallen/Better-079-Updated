@@ -49,7 +49,7 @@ namespace Better079.Commands
 
             if (!_isReady)
             {
-                response = "Error. Wait before using this ability again";
+                response = "Error. Wait before use this ability again";
                 return false;
             }
             
@@ -77,7 +77,7 @@ namespace Better079.Commands
 
             if (!TryFindCamera(randomTargetPlayer, out Camera targetCamSec))
             {
-                response = "No cameras were found. Try again.`";
+                response = "No cameras was found. Try again.`";
                 return false;
             }
 

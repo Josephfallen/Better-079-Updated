@@ -14,12 +14,12 @@ namespace Better079
         public override string Name => "Better079";
 
         public override Version Version { get; } = new(3, 2, 0);
-        public override Version RequiredExiledVersion { get; } = new (8, 11, 0);
+        public override Version RequiredExiledVersion { get; } = new(8, 12, 0);
 
         public static Better079 Instance;
 
         private PlayerHandlers _playerHandlers;
-        
+
         private Harmony _harmonyInstance;
 
         public override void OnEnabled()

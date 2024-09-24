@@ -14,7 +14,7 @@ namespace Better079.Commands
     public class Overcharge : ICommand
     {
         public string Command => "overcharge";
-        public string Description => "[SCP-079 ABILITY] Disables all lights in facility for selected time (Can be called only as SCP-079)";
+        public string Description => "[SCP-079 ABILITY] Disables all light in facility for selected time (Can be called only as SCP-079)";
 
         public string[] Aliases => Array.Empty<string>();
 
@@ -59,7 +59,7 @@ namespace Better079.Commands
                 return true;
             }
             
-            response = $"You don't have energy to use ability ({Better079.Instance.Config.OverchargePrice} points) or you is using incorrect time format (time should be written in seconds).";
+            response = $"You don't have energy to use ability ({Better079.Instance.Config.OverchargePrice} points) or you is using incorrect time format (time should be writed in seconds).";
             return false;
         }
     }

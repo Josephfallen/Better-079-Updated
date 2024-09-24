@@ -49,7 +49,7 @@ namespace Better079.Commands
             
             if (!_isReady)
             {
-                response = "Error. Wait before use this ability again";
+                response = "Error. Wait before using this ability again";
                 return false;
             }
 

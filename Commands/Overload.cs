@@ -23,7 +23,7 @@ namespace Better079.Commands
         {
             if (!Better079.Instance.Config.GeneratorsDropEnabled)
             {
-                response = "Command disabled by server owner or you is not player.";
+                response = "Command disabled by server owner or you are not a player.";
                 return false;
             }
 

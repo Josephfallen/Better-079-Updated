@@ -77,7 +77,7 @@ namespace Better079.Commands
 
             if (!TryFindCamera(randomTargetPlayer, out Camera targetCamSec))
             {
-                response = "No cameras was found. Try again.`";
+                response = "No cameras were found. Try again.`";
                 return false;
             }
 
